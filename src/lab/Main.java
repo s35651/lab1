@@ -1,9 +1,10 @@
 package lab;
 
 public class Main {
-    static void main() {
-        System.out.println("Lab1");
-        System.out.println("Lab2");
-
+    public static void main(String[] args) {
+        Adder adder = new Adder();
+        System.out.println(adder.add(1, 2));
+        Subtractor subtractor = new Subtractor();
+        System.out.println(subtractor.subtract(6, 3));
     }
 }
